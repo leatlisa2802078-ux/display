@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="km">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+</head>
+<style>
+    nav ul li {
+        display: inline-block;
+    }
+    nav ul li a {
+        display: inline-block;
+        padding: 10px 18px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+    }
+
+    .product-card {
+        display: inline-block;
+        width: 30%;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        margin: 10px;
+        box-sizing: border-box;
+
+    }
+    .btn-buy {
+        display: block;
+        text-align: center;
+        background-color: #28a745;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+    .product-card img{
+        width: 100%;
+        height: 100%;
+    }
+    .out-of-stock {
+        display: none;
+    }
+</style>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">ទំព័រដើម</a></li>
+            <li><a href="#">វគ្គសិក្សា</a></li>
+            <li><a href="#">អំពីយើង</a></li>
+            <li><a href="#">ទំនាក់ទំនង</a></li>
+        </ul>
+    </nav>
+    <div class="product-grid">
+        <div class="product-card">
+            <h3>ទំនិញទី ១</h3>
+            <a href="#" class="btn-buy">ទិញឥឡូវនេះ</a>
+            <img src="https://i.pinimg.com/1200x/9b/05/3c/9b053c3bbf7b16f892f37b06cb14a385.jpg" alt="">
+        </div>
+        <div class="product-card">
+            <h3>ទំនិញទី ២</h3>
+            <a href="#" class="btn-buy">ទិញឥឡូវនេះ</a>
+             <img src="https://i.pinimg.com/1200x/9b/05/3c/9b053c3bbf7b16f892f37b06cb14a385.jpg" alt="">
+        </div>
+        <div class="product-card">
+            <h3>ទំនិញទី ៣</h3>
+            <a href="#" class="btn-buy">ទិញឥឡូវនេះ</a>
+             <img src="https://i.pinimg.com/1200x/9b/05/3c/9b053c3bbf7b16f892f37b06cb14a385.jpg" alt="">
+        </div>
+        <div class="product-card out-of-stock">
+            <h3>ទំនិញដាច់ស្តុក</h3>
+            <a href="#" class="btn-buy">ទិញឥឡូវនេះ</a>
+        </div>
+    </div>
+</body>
+
+</html>
